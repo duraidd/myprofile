@@ -12,7 +12,7 @@ import Serivce from "./Components/Serivce";
 
 
 function App() {
-  const [count, setcount] = useState(0)
+  
 
 
 
@@ -32,15 +32,11 @@ function App() {
       <Experience />
       <Education />
       <PlayStoreApp />
-      <p style={{color:"white"}}>You clicked {count} times</p>
-      <button onClick={() => setcount(count + 1)}>
-        Click me
-      </button>  
-    </div>
+      
 
 
 
-
+</div>
 
 
   );
